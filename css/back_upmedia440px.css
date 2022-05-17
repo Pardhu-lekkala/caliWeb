@@ -1,0 +1,965 @@
+@media (max-device-width: 425px) {
+    .alert-danger {
+        display: none !important;
+    }
+    .cky-consent-bar {
+        background-color: #f5f3f3 !important;
+        border: 1px solid #f5e6e6 !important;
+        position: relative;
+        height: 294px;
+    }
+    .cky-btn-reject {
+        /* background-color: #222D48 !important; */
+        background: none !important;
+        color: #000 !important;
+        display: block;
+        border: none !important;
+        position: absolute;
+        bottom: 6%;
+        left: 0;
+        text-decoration: underline;
+    }
+    .displa_none1 {
+        display: none;
+    }
+    .cky-btn-accept {}
+    .cky-box-bottom-left {
+        bottom: 14% !important;
+        left: 10% !important;
+        width: 80% !important;
+    }
+    main {
+        padding-top: 24%;
+    }
+    .mobie_none {
+        display: none;
+    }
+    .mobile_res {
+        display: none !important;
+        height: unset;
+    }
+    .email_icon {
+        width: 15%;
+        float: left;
+    }
+    .res2 {
+        margin-bottom: 10%;
+    }
+    .menu_border {
+        border: none;
+    }
+    .nav-tabs>li.active>a,
+    .nav-tabs>li.active>a:focus,
+    .nav-tabs>li.active>a:hover {
+        color: #555;
+        cursor: default;
+        background: none;
+        border: 0px solid #ddd;
+        text-decoration: underline;
+        border-bottom: 0px solid #222D48;
+    }
+    .thesite {
+        width: 100%;
+        float: left;
+        padding: 12% 0 0 0%;
+        line-height: 41px;
+    }
+    .aniconic {
+        font-size: 4.2vw;
+        color: #222D48;
+        font-family: 'Teodor';
+    }
+    .foramore {
+        font-size: 7vw;
+        color: #222D48;
+        line-height: 1.1;
+        font-family: 'Teodor';
+    }
+    .welcome_txt {
+        color: #B08A96;
+        font-size: 7.2vw;
+        margin-top: 4vw;
+        font-family: 'Teodor';
+    }
+    .mar_left7 {
+        margin-left: 0;
+    }
+    .clr_menu {
+        color: #222D48 !important;
+        padding-bottom: 0px;
+        margin-top: 30px;
+    }
+    .calendar {
+        padding: 2vw;
+        background: #ffffff;
+        border-radius: 4px;
+        width: 100%;
+        border: 0 !important;
+        font-size: 3vw !important;
+        font-size: 18px;
+        border-radius: 0 !important;
+        border-bottom: 1px solid #ccc !important;
+        border: 1px solid #333333;
+        box-shadow: 0px 20px 40px rgb(59 60 56 / 5%);
+    }
+    .padd_ri_mobile li {
+        padding-right: 19% !important;
+    }
+    .nav-tabs>li>a {
+        margin-right: 2px;
+        line-height: 1.42857143;
+        border: 1px solid transparent;
+        border-radius: 4px 4px 0 0;
+        font-size: 3.4vw;
+    }
+    .nav-tabs>li {
+        float: none;
+        display: inline-block;
+        zoom: 1;
+        padding-right: 4%;
+    }
+    .nav-tabs {
+        border-bottom: 0px;
+        margin-bottom: 5%;
+    }
+    .wid_60 {
+        width: 100%;
+    }
+    .logo {
+        width: 82px;
+        padding: 0;
+        margin-top: 5%;
+    }
+    .mobile_res {
+        display: none !important;
+        height: unset;
+    }
+    .welcome_txt_mobile {
+        font-size: 22px;
+        text-align: left;
+        margin-top: 10%;
+        color: #222D48;
+        font-family: 'Teodor';
+    }
+    .res_mobile1 {
+        /* margin-left: 33%; */
+        background-color: #222D48 !important;
+        color: #fff !important;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        /* margin-bottom: 10%; */
+    }
+    .back_location_map {
+        background: none;
+    }
+    .menu_mobile li a {
+        color: #4A97A5 !important;
+        font-size: 4.2vw;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #BAB3AE;
+        font-size: 4.2vw;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border: none;
+        padding-top: 13%;
+        overflow: hidden;
+        padding-left: 5%;
+    }
+    .logo_img12 {
+        padding-left: 15px !important;
+    }
+    .privacy_policy li a {
+        color: #222D48 !important;
+        font-size: 2.8vw;
+    }
+    .pad_mobile {
+        padding: 32px 0;
+    }
+    .privacy_policy {
+        list-style: none;
+        margin: auto;
+        padding: 0px;
+        width: 100%;
+    }
+    .all_right {
+        color: #222D48;
+        font-size: 4vw;
+        text-align: center;
+    }
+    .btn_mobile {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .mar_left8 {
+        margin-left: 0%;
+    }
+    .stay_2 {
+        background-color: #222D48;
+        color: #fff;
+        padding: 6px 32px;
+        border: 0;
+        font-size: 4.2vw;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        border: 0px !important;
+    }
+    .privacy_policy li {
+        text-decoration: none;
+        float: left;
+        padding-right: 5%;
+        font-size: 0.9vw;
+        color: #222D48;
+        text-align: center;
+    }
+    .mob_pad_res {
+        padding-top: 3%;
+    }
+    .mar_full {
+        margin: 8% 5%;
+        padding: 0;
+    }
+    .footer_privacy li {
+        padding-right: 1% !important;
+    }
+    .exper1 {
+        color: #222D48;
+        font-size: 6.5vw;
+        font-family: 'Teodor';
+    }
+    .pad_rig4 {
+        padding-right: 4vw !important;
+    }
+    .exper2 {
+        color: #000;
+        font-size: 4.2vw;
+    }
+    .bookstay {
+        margin: auto;
+        width: 53%;
+        margin-top: 3vw;
+    }
+    .mobile_dini_font {
+        color: #222D48 !important;
+        font-family: 'Teodor' !important;
+    }
+    .mobile_res321 {
+        padding-left: 2%;
+    }
+    .mobile_res32 li {
+        padding-right: 2%;
+    }
+    .mobile_res3232 li {
+        padding-right: 0%;
+    }
+    .mobile_mar_bot1 {
+        margin-bottom: 8%;
+    }
+    .location2_img_small {
+        font-size: 4.2vw;
+        color: #222D48;
+        width: 81%;
+    }
+    .mar_tp_left1 {
+        padding-left: 5% !important;
+    }
+    .mar_tp_left2 {
+        padding-left: 3% !important;
+    }
+    .about1_img_small {
+        font-size: 4.2vw;
+        color: #B08A96;
+        font-family: 'Teodor';
+    }
+    .about1_img {
+        font-size: 7vw;
+        color: #B08A96;
+        font-family: 'Teodor';
+    }
+    .mar_0 {
+        margin: 0px;
+        margin-bottom: 10%;
+    }
+    .stay_1 {
+        background-color: #B08A96;
+        color: #fff;
+        padding: 6px 32px;
+        border: 0;
+        font-size: 4.2vw;
+        margin: 0;
+        margin-bottom: 32%;
+        margin-top: 26%;
+    }
+    .thisaegi {
+        width: 100%;
+        float: left !important;
+        text-align: left;
+        color: #B08A96;
+        font-size: 6vw;
+    }
+    .Cali1 {
+        font-size: 7vw;
+        color: #222D48;
+        font-family: 'Teodor';
+    }
+    .pad_left_mob {
+        padding-left: 0px !important;
+    }
+    .mobile_res_fot {
+        color: #4A97A5;
+        font-size: 4vw;
+        margin-top: 0px;
+    }
+    .calend_2 {
+        position: absolute;
+        right: 8%;
+        font-size: 5.5vw;
+        top: 46%;
+        color: #4A97A5;
+    }
+    .pad_top10_res {
+        padding-top: 10%;
+    }
+    .pad_top15_res {
+        padding-top: 15%;
+        padding-left: 0 !important;
+    }
+    .calend_12 {
+        position: absolute;
+        right: 1%;
+        font-size: 5.5vw;
+        top: 49%;
+        color: #4A97A5;
+    }
+    .calend_1 {
+        position: absolute;
+        right: 10%;
+        font-size: 5.5vw;
+        top: 49%;
+        color: #4A97A5;
+    }
+    .mobile_res_fot2 {
+        color: #4A97A5;
+        font-size: 6vw;
+        width: 100%;
+        border: 0 !important;
+    }
+    .mobile_res_fot1 {
+        color: #222D48;
+        margin: 0;
+        font-size: 4vw;
+    }
+    .pad_right_mob {
+        padding-right: 0px;
+    }
+    .mar_res21 {
+        margin: 10% 0;
+    }
+    .pad_0_mobile {
+        padding: 0 !important;
+    }
+    .accomo {
+        background-color: #222D48;
+        color: #fff;
+        padding: 6px 32px;
+        border: 0;
+        border-radius: 0px;
+        font-size: 4.2vw;
+    }
+    .inaland {
+        font-size: 4.2vw;
+        color: #222D48;
+        font-family: 'Teodor';
+        margin-bottom: 10%;
+    }
+    .book_exper12 {
+        border: 1px solid #4A97A5;
+        background: no-repeat;
+        padding: 2%;
+        color: #222D48;
+        margin: 10% 34%;
+    }
+    .theresort_mobile {
+        font-size: 15px;
+        color: #222D48;
+        margin-top: 6%;
+        font-family: 'Teodor';
+    }
+    .location1_img {
+        font-size: 8vw;
+        font-family: 'Teodor';
+        color: #222D48;
+    }
+    .mobile_align {
+        margin-bottom: 9%;
+        border: none;
+    }
+    .sustain_back {
+        background: none;
+    }
+    .molilealign {
+        position: static;
+        margin-left: -26%;
+        margin: auto;
+        text-align: center;
+        margin-top: 5px;
+        padding-top: 22px;
+    }
+    .sus_mobile {
+        font-family: "Teodor";
+        font-size: 9vw;
+        text-align: center;
+    }
+    .Why_seawater {
+        font-family: "Teodor";
+        font-size: 5vw;
+        text-align: center;
+    }
+    .mobile_bot_res {
+        margin-bottom: 10%;
+    }
+    .res_mar_top {
+        margin-top: 10%;
+    }
+    .res_ex1 {
+        display: block !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    .jpr_text {
+        text-align: center;
+        font-size: 5vw;
+        color: #93ABC5;
+        margin: 14% 0;
+    }
+    .press_logo {
+        width: 52vw;
+        margin-bottom: 4%;
+    }
+    .press_text {
+        padding: 0 14% 0 0;
+        font-family: 'Teodor';
+        font-size: 5vw;
+        line-height: 1.6;
+        color: #4A97A5;
+        margin-bottom: 0;
+    }
+    .arrow_img {
+        width: 6%;
+        margin-right: 100%;
+        margin-bottom: 5%;
+    }
+    .Why_seawater1 {
+        font-family: "Teodor";
+        font-size: 5vw;
+        text-align: left;
+    }
+    .our_commit {
+        color: #4096CE !important;
+        text-align: center;
+        font-size: 7vw;
+        font-family: 'Teodor';
+    }
+    .our_commit1 {
+        color: #4096CE !important;
+        text-align: left;
+        font-size: 7vw;
+        font-family: 'Teodor';
+    }
+    .pad_to80 {
+        padding-top: 150%;
+    }
+    .sustain_1text {
+        width: 100%;
+        float: left;
+        padding: 12% 0 0 0%;
+    }
+    .calend_111 {
+        position: absolute;
+        right: 8%;
+        font-size: 5.5vw;
+        top: 57%;
+        color: #4A97A5;
+    }
+    .pad_left8 {
+        padding-left: 4%;
+    }
+    .calend_121 {
+        position: absolute;
+        right: 0%;
+        font-size: 5.5vw;
+        top: 57%;
+        color: #4A97A5;
+    }
+    .mobile_align li a {
+        padding: 10px 12px;
+    }
+    .location1_img_small {
+        font-size: 4vw;
+        color: #222D48;
+        font-family: 'Teodor';
+    }
+    .mar_t0 {
+        margin-top: 0px;
+    }
+    .pad_leftmobile {
+        padding-left: 24%;
+        width: 100%;
+    }
+    .pad_0 {
+        padding: 0px;
+    }
+    .mar_tp {
+        padding-top: 10%;
+        padding-left: 0%;
+        margin-bottom: 10%;
+    }
+    .trg_img {
+        /* height: 42vw; */
+        width: 100%;
+        height: 100%;
+        margin-bottom: 2vw;
+    }
+    .back_clr1 {
+        background: none;
+        height: unset;
+    }
+    .VOGUE {
+        text-align: center;
+        font-size: 5.2vw;
+        color: #BAB3AE;
+        margin-top: 9%;
+    }
+    .pushing {
+        text-align: center;
+        color: #BAB3AE;
+        font-size: 7vw;
+    }
+    .inaland1 {
+        font-size: 17px;
+        color: #222D48;
+        margin-bottom: 10%;
+        font-family: 'Teodor';
+    }
+    .mobile_res1 {
+        display: block !important;
+    }
+    .back_clr12 {
+        background: none;
+    }
+    .nav-tabs {
+        text-align: left;
+    }
+    .navbar-toggle {
+        margin-right: 5px;
+        margin-top: 5% !important;
+    }
+    .water_sports {
+        color: #4A97A5;
+        font-size: 20px;
+    }
+    .mobile_res1 li a {
+        color: #8F8D88;
+        width: 100%;
+        font-size: 3.2vw;
+        padding: 10px 10px;
+    }
+    /* .mobile_res1 li {
+        color: #8F8D88;
+        width: 100%
+    } */
+    .book_exper {
+        border: 1px solid #4A97A5;
+        background: no-repeat;
+        color: #4A97A5;
+        padding: 2%;
+        margin: 10% 22% 19%;
+    }
+    .mobile_lorem {
+        color: #222D48;
+        font-size: 4.2vw;
+        font-family: 'Teodor';
+        margin-top: 10px;
+    }
+    .mob_pad_res {
+        padding: 3%;
+    }
+    .tours_res {
+        color: #337ab7;
+        padding-left: 4%;
+        font-size: 5vw;
+    }
+    .logo_img {
+        width: 100%;
+        /* padding: 16px;
+         */
+        /* padding-left: 0px; */
+    }
+    .mobile_clr_acc {
+        color: #AC8691;
+    }
+    .wid_76 {
+        width: 35%;
+        float: right;
+    }
+    .act_tab li:active .mobile_clr_acc {
+        color: #222D48 !important;
+    }
+    .virtual1 {
+        background-color: #222D48;
+        color: #fff !important;
+        width: 100%;
+        color: #fff !important;
+        font-size: 3vw;
+        padding: 9px;
+        border-radius: 0px;
+        margin-top: 0px;
+    }
+    .mobile_mar_res {
+        margin-bottom: 0px !important;
+        padding-left: 0px;
+    }
+    .read_more {
+        font-size: 3.9vw;
+        color: #4a97a5;
+    }
+    .bookyour_mobile_d {
+        color: #4096CE !important;
+        font-size: 3vw !important;
+        margin-left: 32%;
+        padding: 1vw 4vw;
+    }
+    .our_cafe {
+        font-size: 8vw;
+        color: #B08A96;
+        text-align: center;
+        font-family: 'Teodor';
+    }
+    .this_aegean {
+        font-size: 4.2vw;
+        color: #222D48;
+    }
+    .Experience_my {
+        font-size: 7vw;
+        color: #B08A96;
+        text-align: center;
+        font-family: 'Teodor';
+        /* padding-top: 10%; */
+    }
+    .main_rest {
+        font-size: 9vw;
+        color: #AC8691;
+        text-align: center;
+        padding: 10% 0;
+        font-family: 'Teodor';
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .sesonal_menu {
+        font-size: 5vw;
+        color: #000;
+        padding-bottom: 10%;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .back_clr4 {
+        background: none;
+    }
+    .our_sign {
+        width: 100%;
+        float: left;
+        font-size: 5vw;
+        color: #222D48;
+        text-align: left;
+        margin-bottom: 11%;
+        margin-top: 6%;
+    }
+    .virtual2 {
+        width: 100%;
+        font-size: 3vw;
+        padding: 9px;
+        margin-top: 0px;
+    }
+    .pad_left8 {
+        padding-left: 4%;
+    }
+    .wid8 {
+        width: 39vw !important;
+    }
+    .wid14 {
+        width: 54%!important;
+    }
+    .wid16 {
+        width: 57% !important;
+    }
+    .wid_19 {
+        width: 52vw !important;
+    }
+    .read_more1 {
+        font-size: 4.9vw;
+        color: #8F8D88;
+        text-decoration: underline;
+    }
+    .back_clr12 {
+        height: unset !important;
+    }
+    .book_txt {
+        color: #222D48;
+        font-size: 4.3vw;
+        font-weight: 700;
+        text-align: center;
+    }
+    .data_input {
+        border: 0 !important;
+        font-size: 4.2vw !important;
+        border-bottom: 1px solid #ccc !important;
+        background: none;
+    }
+    .arrival_style {
+        color: #4096CE;
+        font-size: 3.5vw;
+    }
+    .check_avail {
+        background-color: #222D48;
+        color: #fff;
+        font-size: 4vw;
+        padding: 1.5vw;
+        font-weight: 100;
+        border: 0;
+    }
+    .reserve_back {
+        background: none;
+    }
+    .select_room {
+        color: #222D48;
+        font-size: 5.5vw;
+        font-family: 'Teodor';
+        width: 45%;
+        border-bottom: 1px solid #222D48;
+    }
+    .resereve_cat {
+        font-size: 5vw;
+        color: #222D48;
+        padding-left: 7px;
+        font-family: 'McQueen Grotesk';
+    }
+    .reserve_right {
+        color: #4096CE !important;
+        font-size: 7.2vw;
+        margin-top: 2vw;
+        font-family: 'Teodor';
+        /* font-family: 'Teodor'; */
+        margin: 0;
+        padding: 0;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+    .resereve_cat1 {
+        font-size: 5vw;
+        color: #222D48;
+        font-family: 'McQueen Grotesk';
+        padding-right: 4vw;
+        border-right: 1px solid #ccc;
+        padding-left: 4.5vw;
+    }
+    .std_rate {
+        color: #000;
+        font-size: 4.3vw;
+        font-family: 'McQueen Grotesk';
+    }
+    .room_rate1 {
+        font-size: 5vw;
+        color: #4A97A5;
+        font-family: 'Teodor';
+    }
+    .per_nit {
+        font-size: 2.9vw;
+        color: #222D48;
+        padding-left: 4%;
+    }
+    .excluding {
+        font-size: 3vw;
+        color: #222D48;
+    }
+    .virtual {
+        background-color: #222D48;
+        color: #fff !important;
+        width: 34vw;
+        font-size: 3vw;
+        border-radius: 0;
+        /* padding-bottom: 6px; */
+        padding: 9px;
+        margin-top: 3px;
+    }
+    .reser_res {
+        color: #222D48 !important;
+        width: 34vw;
+        font-size: 3vw;
+        border-radius: 0;
+        /* padding-bottom: 6px; */
+        padding: 9px;
+        margin-top: 3px;
+    }
+    .pad_leftres {
+        padding-left: 0;
+    }
+    .pad_5_res {
+        padding: 0;
+    }
+    .mar_res {
+        margin: 0;
+    }
+    .wid_11 {
+        width: 37vw;
+    }
+    .kalafati {
+        font-family: 'McQueen Grotesk';
+        padding-top: 0;
+        font-size: 5.1vw;
+        text-align: center;
+    }
+    .wid_32 {
+        width: 73%;
+    }
+    .transport {
+        color: #4096CE !important;
+        font-size: 5vw;
+    }
+    .read_more12 {
+        font-size: 15px;
+        padding-left: 2vw;
+        color: #4096ce;
+    }
+    .pad_10_res {
+        padding: 0;
+    }
+    .about1 {
+        color: #222D48;
+        text-align: center;
+        font-size: 4.2vw !important;
+    }
+    .about2 {
+        font-family: "Teodor";
+        font-size: 4.2vw;
+        margin-top: 5%;
+        color: #222D48;
+        text-align: center;
+    }
+    .about3 {
+        font-family: "Teodor";
+        font-size: 4vw;
+        color: #4A97A5;
+        text-align: center;
+    }
+    .res_detail {
+        padding-top: 10%;
+    }
+    .room_type {
+        color: #222D48;
+        font-size: 6vw;
+        font-family: "Teodor";
+    }
+    .amount {
+        font-size: 7vw !important;
+        color: #4A97A5;
+        font-family: 'Teodor';
+    }
+    .contact_info {
+        color: #4A97A5;
+        font-size: 5vw;
+    }
+    .stand_daily {
+        font-size: 4vw !important;
+        color: #4096CE;
+    }
+    .detail_edit {
+        background-color: #222D48;
+        color: #fff;
+        font-size: 3.9vw;
+        padding: 5px 8% 5px;
+        border: 0;
+        margin-top: 0;
+        /* margin-left: 40%; */
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .about4 {
+        font-family: "Teodor";
+        font-size: 4vw;
+        color: #222D48;
+        text-align: center;
+    }
+    .mr_select {
+        background: none;
+        width: 43%;
+        padding: 1%;
+        font-size: 4.2vw !important;
+        border-color: #222D48 !important;
+    }
+    .detail_check_box {
+        font-size: 2.8vw;
+        font-weight: 100;
+        color: #222D48;
+        padding-left: 1vw;
+    }
+    .pad_15 {
+        padding-left: 0;
+        padding-top: 5%;
+    }
+    .res_det {
+        text-align: center;
+    }
+    .policy1 {
+        font-size: 4vw;
+        color: #222D48;
+        font-weight: 100;
+    }
+    .detail_edit1 {
+        background-color: #222D48;
+        color: #fff;
+        font-size: 2.9vw;
+        padding: 5px 4% 5px;
+        border: 0;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .details_room1 {
+        font-size: 3vw;
+        color: #222D48;
+    }
+    .thank_you1 {
+        font-size: 7vw;
+        text-align: center;
+        color: #222D48;
+        font-family: "Teodor";
+    }
+    .thank_you2 {
+        font-size: 4.4vw;
+        text-align: center;
+        color: #222D48;
+    }
+    .terms_con {
+        font-size: 5vw;
+        color: #222D48;
+        font-family: "Teodor";
+    }
+    .by_access {
+        font-size: 4vw;
+        color: #222D48;
+        font-family: "Teodor";
+    }
+    .terms_con1 {
+        font-size: 5.4vw;
+        color: #222D48;
+        font-family: "Teodor";
+    }
+    .main_div {
+        width: 92%;
+        margin: auto;
+    }
+}
