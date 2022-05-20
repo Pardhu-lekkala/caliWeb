@@ -73,9 +73,97 @@
                 }
                 .view_acc121 {
                     width:25% !important;
-                                    }
+                }
         }
-        
+ 
+        @media only screen and (min-device-width: 428px) and (max-device-width: 926px) and (orientation: landscape){
+            .calendar {
+                padding: 5px 7px !important;
+            }
+            .welcome_txt{
+                font-size: 4.5vw !important;
+            }
+            .book_txt{
+                font-size: 1.75rem;
+            }
+            .calendar{
+                font-size: 1rem !important;
+            }
+            .arrival_style{
+                font-size: 1rem !important;
+            }
+            .check_avail{
+                font-size: 1rem !important;
+            }
+            .col-md-2{
+                margin-bottom: 1%;
+            }
+       
+}
+@media only screen and (min-device-width: 809px) and (max-device-width: 811px) and (orientation: portrait) {
+            .input-group .form-control{
+                margin-top:5px !important;
+            }
+            .first_input{
+                width:80%;
+            }
+            .first_calendar{
+                position: absolute;
+                right: 30%;
+                font-size: 1.5vw;
+                top: 54%;
+                width: 10%;
+                color: #4A97A5;
+            }
+            .check_avail_div{
+                padding-top: 14px !important;
+            }
+            .navbar-nav>li>a{
+                font-size: 0.9rem !important;
+            }
+            .menu_mobile{
+                width:85% !important;
+            }
+            .inaland{
+                margin-top: 18px !important;
+            }
+            
+        }
+        @media only screen and (min-device-width: 1075px) and (max-device-width: 1080px) and (orientation: landscape){
+    .menu_newipad a {
+    font-size: 1.1rem !important;
+    margin-left: 12px;
+}
+    .menu_newipad1{
+        padding-right: 15px !important;
+        padding-left: 7px !important;
+    }
+}
+@media only screen and (min-device-width: 780px) and (max-device-width: 790px) and (orientation: landscape){
+    .navbar-nav>li>a{
+        font-size: 1.3vw !important;
+    padding: 10px 1vw !important;
+    }
+    .menu_mobile{
+        width: 85% !important;
+    }
+    .first_calendar {
+        position: absolute;
+        right: 30%;
+        font-size: 1.5vw;
+        top: 50%;
+        width: 10%;
+        color: #4A97A5;
+}
+    .first_input{
+        width:80%;
+    }
+    .form-control{
+        margin-top:7px !important;
+    }
+}
+
+
     </style>
 
    
@@ -196,12 +284,12 @@
                         <div class="col-md-4 col-xl-4 col-sm-12 col-xs-6 wid_992_1" style="padding-left: 0px;">
                             <p class="book_txt" style="font-family: 'McQueen Grotesk Bold'; font-weight: 700;">Book Your Stay</p>
                         </div>
-                        <div class="col-md-2 col-xl-2 col-sm-3 col-xs-6 pad_le wid_992_2">
+                        <div class="col-md-2 col-xl-2 col-sm-3 col-xs-6 pad_le wid_992_2 first_date">
                             <lable class="arrival_style">Arrival Date</lable>
-                            <input placeholder="MM &nbsp;&nbsp;DD&nbsp;&nbsp; YY" type="text" name="checkIn" id="datepicker" value="" class="calendar data_input">
+                            <input placeholder="MM &nbsp;&nbsp;DD&nbsp;&nbsp; YY" type="text" name="checkIn" id="datepicker" value="" class="calendar first_input data_input" >
                             <!-- <i class="fas fa-calendar-check icon calender_icon"></i> -->
 
-                            <span><img id="datepicker11"  class=" calend_1" src="https://d2xhvxf40jxf4j.cloudfront.net/img/calender.png" onclick="theFunction()"></span>
+                            <span ><img id="datepicker11"  class="first_calendar" src="https://d2xhvxf40jxf4j.cloudfront.net/img/calender.png" onclick="theFunction()"></span>
                             <!-- <input class="data_input" type="date" data-date-format="mm.dd.yyyy"> -->
                         </div>
                         <div class="col-md-2 col-xl-2 col-sm-3 col-xs-6 new_pad_left0" >
@@ -232,10 +320,10 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="col-md-2 col-xl-2 col-sm-3 col-xs-6" style="padding-right: 0;
+                        <div class="col-md-2 col-xl-2 col-sm-3 col-xs-6 check_avail_div" style="padding-right: 0;
                         padding-top: 18px;">
                             <a href="javascript:void(0)">
-                                <input type="button" value="Check Availability" class="check_avail close_pop" style="float: right; ">
+                                <input type="button" value="Check Availability" class="check_avail close_pop" style="float: right;">
                             </a>
                         </div>
                     </div>
@@ -698,10 +786,10 @@
                                     <ul class="location_list">
                                         <li><span><img class="icon_size12" src="https://d2xhvxf40jxf4j.cloudfront.net/img/index_icons/cali.png?v=13"></span>Cali Mykonos</li>
                                         <li><span><img class="icon_size12" src="https://d2xhvxf40jxf4j.cloudfront.net/img/index_icons/califeet.png?v=13"></span>Cali Fleet</li>
-                                        <li><span><img class="icon_size12" src="https://d2xhvxf40jxf4j.cloudfront.net/img/index_icons/port.png?v=13"></span>Port<br><span style="color: #222D48; font-size: 14px;font-family: 'McQueen Grotesk Regular';">13 km</span></li>
-                                        <li><span><img class="icon_size12" src="https://d2xhvxf40jxf4j.cloudfront.net/img/index_icons/town.png?v=13"></span>Chora Town<br><span style="color: #222D48; font-size: 14px;font-family: 'McQueen Grotesk Regular';">11 km</span></li>
-                                        <li><span><img class="icon_size12" src="https://d2xhvxf40jxf4j.cloudfront.net/img/index_icons/windmill.png?v=13"></span>Windmill<br><span style="color: #222D48; font-size: 14px;font-family: 'McQueen Grotesk Regular';">11 km</span></li>
-                                        <li><span><img class="icon_size12" src="https://d2xhvxf40jxf4j.cloudfront.net/img/index_icons/airport.png?v=13"></span>Airport<br><span style="color: #222D48; font-size: 14px;font-family: 'McQueen Grotesk Regular';">10 km</span></li>
+                                        <li><span><img class="icon_size12" src="https://d2xhvxf40jxf4j.cloudfront.net/img/index_icons/port.png?v=13"></span>Port<br><span class="extra_details" style="color: #222D48; font-size: 14px;font-family: 'McQueen Grotesk Regular';">13 km</span></li>
+                                        <li><span><img class="icon_size12" src="https://d2xhvxf40jxf4j.cloudfront.net/img/index_icons/town.png?v=13"></span>Chora Town<br><span class="extra_details" style="color: #222D48; font-size: 14px;font-family: 'McQueen Grotesk Regular';">11 km</span></li>
+                                        <li><span><img class="icon_size12" src="https://d2xhvxf40jxf4j.cloudfront.net/img/index_icons/windmill.png?v=13"></span>Windmill<br><span class="extra_details" style="color: #222D48; font-size: 14px;font-family: 'McQueen Grotesk Regular';">11 km</span></li>
+                                        <li><span><img class="icon_size12" src="https://d2xhvxf40jxf4j.cloudfront.net/img/index_icons/airport.png?v=13"></span>Airport<br><span class="extra_details" style="color: #222D48; font-size: 14px;font-family: 'McQueen Grotesk Regular';">10 km</span></li>
                                     </ul>
 
                                 </div>
