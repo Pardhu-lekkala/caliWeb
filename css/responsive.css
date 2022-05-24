@@ -5334,7 +5334,7 @@
     }
     .sub_in {
         border: 1px solid #222D48 !important;
-        width: 17vw !important;
+        /* width: 17vw !important; */
         padding: 0.5vw !important;
         font-size: 2vw;
     }
@@ -5870,7 +5870,7 @@
     }
     .sub_in {
         border: 1px solid #222D48 !important;
-        width: 17vw !important;
+        /* width: 17vw !important; */
         padding: 0.5vw !important;
         font-size: 2vw;
     }
@@ -6867,7 +6867,7 @@
     }
     .sub_in {
         border: 1px solid #222D48 !important;
-        width: 17vw !important;
+        /* width: 17vw !important; */
         padding: 0.5vw !important;
         font-size: 2vw;
     }

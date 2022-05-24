@@ -28,10 +28,30 @@
             color: #8F8D88 !important;
             border: 1px solid #8F8D88 !important;
         }
+
+        .cky-box-bottom-left {
+                bottom: 0% !important;
+                top: 25% !important;
+            }
         
         body {
             font-family: 'McQueen Grotesk';
             background-color: #F8F8F8;
+        }
+
+        @media only screen and (min-device-width: 890px) and (max-device-width: 900px) and (orientation: landscape){
+            .menu_mobile {
+                width: 88%;
+            }
+            .navbar-nav {
+                margin: 7.5px -85px;
+            }
+            .navbar-default .navbar-nav>li>a {
+                font-size: 0.76rem;
+            }
+            .navbar-nav {
+                width: 93% !important;
+            }
         }
 
         @media only screen and (max-device-width: 810px) and (orientation: landscape) {
