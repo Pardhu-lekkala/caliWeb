@@ -54,12 +54,71 @@
             }
             }
 
+        @media only screen and (min-device-width: 320px) and (max-device-width: 600px) and (orientation: portrait){
+                .height_index_img img {
+                     height: 343px !important;
+            }
+        }
+
+        @media only screen and (min-device-width: 1300px) and (max-device-width: 1400px) and (orientation: landscape){
+            .menu_mobile {
+                width: 88%;
+            }
+            .navbar-nav {
+                margin: 7.5px -95px;
+            }
+            .navbar-default .navbar-nav>li>a {
+                font-size: 1.25rem;
+            }
+            .navbar-nav {
+                margin: 9px -95px;
+                margin-top: 23px !important;
+            }
+        }
+
+        @media only screen and (min-device-width: 920px) and (max-device-width: 930px) and (orientation: landscape){
+            .menu_mobile {
+                width: 88%;
+            }
+            .navbar-nav {
+                margin: 7.5px -85px;
+            }
+            .navbar-default .navbar-nav>li>a {
+                font-size: 0.8rem;
+            }
+            .navbar-nav {
+                width: 93% !important;
+            }
+        }    
+
+
         @media only screen and (min-device-width: 809px) and (max-device-width: 820px) and (orientation: portrait){
             .Suites_text {
                 text-align: left !important;
                 width: 200px !important;
                 font-size: 1.1rem !important;
             }
+            .welcome_txt {
+                margin-top: 9.5vw !important;
+            }
+            .Cali1{
+                width: 100% !important;
+            }
+            .inaland{
+                width: 100% !important;
+                font-size: 1.7vw !important;
+            }
+            .mar_tp_left1{
+                padding-top: 0% !important;
+            }
+            .navbar-default .navbar-nav>li>a{
+                font-size: 1rem !important;
+                padding: 10px 0.64vw !important;
+            }
+            .menu_mobile{
+                width: 87% !important;
+            }
+
         }
         @media only screen and (min-device-width: 440px) and (max-device-width: 750px) and (orientation: landscape){
             .accomo {
@@ -98,8 +157,23 @@
             .col-md-2{
                 margin-bottom: 1%;
             }
-       
+            .first_input{
+                width:80%;
+            }
+            .first_calendar{
+                position: absolute;
+                right: 30%;
+                font-size: 1.5vw;
+                top: 50%;
+                width: 10%;
+                color: #4A97A5;
+                padding-bottom: 3%;
+            }
+            .input-group .form-control{
+                margin-top:5px !important;
+            }
 }
+      
 @media only screen and (min-device-width: 809px) and (max-device-width: 811px) and (orientation: portrait) {
             .input-group .form-control{
                 margin-top:5px !important;
@@ -162,7 +236,19 @@
         margin-top:7px !important;
     }
 }
-
+@media only screen and (min-device-width: 843px) and (max-device-width: 845px) and (orientation: landscape){
+.first_input{
+                width:80%;
+            }
+            .first_calendar{
+                position: absolute;
+                right: 30%;
+                font-size: 1.5vw;
+                top: 54%;
+                width: 10%;
+                color: #4A97A5;
+            }
+        }
 
     </style>
 
@@ -184,7 +270,7 @@
 
 <body>
     <header id="navheader">
-
+        
     </header>
     <main>
         <div class="container-fluid mobile_res">
@@ -289,7 +375,7 @@
                             <input placeholder="MM &nbsp;&nbsp;DD&nbsp;&nbsp; YY" type="text" name="checkIn" id="datepicker" value="" class="calendar first_input data_input" >
                             <!-- <i class="fas fa-calendar-check icon calender_icon"></i> -->
 
-                            <span ><img id="datepicker11"  class="first_calendar" src="https://d2xhvxf40jxf4j.cloudfront.net/img/calender.png" onclick="theFunction()"></span>
+                            <span ><img id="datepicker11"  class="calend_1 first_calendar" src="https://d2xhvxf40jxf4j.cloudfront.net/img/calender.png" onclick="theFunction()"></span>
                             <!-- <input class="data_input" type="date" data-date-format="mm.dd.yyyy"> -->
                         </div>
                         <div class="col-md-2 col-xl-2 col-sm-3 col-xs-6 new_pad_left0" >

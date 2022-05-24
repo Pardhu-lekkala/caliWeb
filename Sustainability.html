@@ -65,6 +65,15 @@
         padding-left: 7px !important;
     }
 }
+@media only screen and (min-device-width: 744px) and (max-device-width: 1370px) {
+            .float-img-ipad-cont{
+                display: block !important;
+                /* margin-left: 5% !important; */
+            }
+            .float-img-ipad-cont-none{
+                display:none !important;
+            }
+        }
 @media only screen and (min-device-width: 780px) and (max-device-width: 790px) and (orientation: landscape){
     .navbar-nav>li>a{
         font-size: 1.3vw !important;
@@ -98,6 +107,37 @@
         margin-bottom: 15% !important;
     }
 }
+
+@media only screen and (min-device-width: 1300px) and (max-device-width: 1400px) and (orientation: landscape){
+            .menu_mobile {
+                width: 88%;
+            }
+            .navbar-nav {
+                margin: 7.5px -95px;
+            }
+            .navbar-default .navbar-nav>li>a {
+                font-size: 1.25rem;
+            }
+            .navbar-nav {
+                margin: 9px -95px;
+                margin-top: 23px !important;
+            }
+        }     
+
+        @media only screen and (min-device-width: 920px) and (max-device-width: 930px) and (orientation: landscape){
+            .menu_mobile {
+                width: 90%;
+            }
+            .navbar-nav {
+                margin: 7.5px -85px;
+            }
+            .navbar-default .navbar-nav>li>a {
+                font-size: 0.8rem;
+            }
+            .navbar-nav {   
+                width: 93% !important;
+            }
+        }      
     </style>
     <script src="https://cdn-cookieyes.com/client_data/76910c511a6acac90e36d672/banner.js" async="" id="cookieyes-banner"></script>
     <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/76910c511a6acac90e36d672/script.js"></script>
@@ -164,7 +204,7 @@
                 </div>
                 <div class="main_div vogue_mar mobile_res ipad_none" style="margin-top: 0;">
                     <div class="row">
-                        <div id="sustainability_1" class="carousel slide wid_70" style="width: 50% !important;" data-ride="carousel" data-interval="3000" data-pause="false">
+                        <div id="sustainability_1" class="carousel slide wid_70 float-img-ipad-cont-none" style="width: 50% !important;" data-ride="carousel" data-interval="3000" data-pause="false">
                             <!-- Indicators -->
 
 
@@ -237,6 +277,78 @@
                                     </div>
 
                                 </div>
+                            </div>
+                            <ol class="carousel-indicators override_slider override_slider12532">
+                                <li data-target="#sustainability_1" data-slide-to="0" class=""></li>
+                                <li data-target="#sustainability_1" data-slide-to="1" class="active"></li>
+                                <li data-target="#sustainability_1" data-slide-to="2"></li>
+                            </ol>
+
+                        </div>
+
+                        <div id="sustainability_1" class="carousel slide wid_70 float-img-ipad-cont" style="width: 100% !important; display: none;" data-ride="carousel" data-interval="3000" data-pause="false">
+                            <!-- Indicators -->
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item res5 active left">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-4">
+                                            <img src="https://d2xhvxf40jxf4j.cloudfront.net/img/accomodation/sm1.png?v=14" alt="..." class="small_slider">
+                                            <div class="main_pheight">
+                                                <p class="small_imgh" >Seawater Pools </p>
+                                                <p class="small_imgp">Avoid straining the island's water supply.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <img src="https://d2xhvxf40jxf4j.cloudfront.net/img/accomodation/sm2.png?v=14" alt="..." class="small_slider">
+                                            <div class="main_pheight">
+                                                <p class="small_imgh">Sustainable Materials
+                                                </p>
+                                                <p class="small_imgp">Reduce waste and energy consumption.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <img src="https://d2xhvxf40jxf4j.cloudfront.net/img/accomodation/sm3.png?v=14" alt="..." class="small_slider">
+
+                                            <div class="main_pheight">
+                                                <p class="small_imgh">Planted Roof System
+                                                </p>
+                                                <p class="small_imgp">Provide insulation and improve air quality.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item res5 next left">
+                                    <div class="row">
+                                        
+                                        <div class="col-md-4 col-sm-4">
+                                            <img src="https://d2xhvxf40jxf4j.cloudfront.net/img/accomodation/sm4.png?v=14" alt="..." class="small_slider">
+                                            <div class="main_pheight">
+                                                <p class="small_imgh">Fresh Water Sources
+                                                </p>
+                                                <p class="small_imgp">Collect water naturally and minimize our use of the island's water supply.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <img src="https://d2xhvxf40jxf4j.cloudfront.net/img/accomodation/sm5.png?v=14" alt="..." class="small_slider">
+                                            <div class="main_pheight">
+                                                <p class="small_imgh">Wastewater Treatment Systems
+                                                </p>
+                                                <p class="small_imgp">Remove impurities and irrigate the surrounding landscape.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <img src="https://d2xhvxf40jxf4j.cloudfront.net/img/accomodation/sm6.png?v=14" alt="..." class="small_slider">
+                                            <div class="main_pheight">
+                                                <p class="small_imgh">Locally Grown & Sourced Ingredients
+                                                </p>
+                                                <p class="small_imgp">Boost biodiversity while minimizing waste and pollution.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                               
                             </div>
                             <ol class="carousel-indicators override_slider override_slider12532">
                                 <li data-target="#sustainability_1" data-slide-to="0" class=""></li>
@@ -484,7 +596,7 @@
                 </div>
                 <div class="main_div vogue_mar " style="margin-top: 0;">
                     <div class="row">
-                        <div id="sustainability_8" class="carousel slide wid_70" style="width: 75% !important;" data-ride="carousel" data-interval="3000" data-pause="false">
+                        <div id="sustainability_8" class="carousel slide wid_70 float-img-ipad-cont-none" style="width: 75% !important;" data-ride="carousel" data-interval="3000" data-pause="false">
                             <!-- Indicators -->
 
 
@@ -546,6 +658,83 @@
 
                                         </div>
                                         <div class="col-md-6 col-sm-6">
+                                            <img src="https://d2xhvxf40jxf4j.cloudfront.net/img/accomodation/sm6.png?v=14" alt="..." class="small_slider">
+                                            <div class="main_pheight">
+                                                <p class="small_imgh">Locally Grown & Sourced Ingredients
+                                                </p>
+                                                <p class="small_imgp">Boost biodiversity while minimizing waste and pollution.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <ol class="carousel-indicators override_slider override_slider12532">
+                                <li data-target="#sustainability_8" data-slide-to="0" class=""></li>
+                                <li data-target="#sustainability_8" data-slide-to="1" class="active"></li>
+                                <li data-target="#sustainability_8" data-slide-to="2"></li>
+                            </ol>
+
+                        </div>
+
+                        <div id="sustainability_8" class="carousel slide wid_70 float-img-ipad-cont" style="width: 75% !important;" data-ride="carousel" data-interval="3000" data-pause="false">
+                            <!-- Indicators -->
+
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item res5 active left">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-4">
+                                            <img src="https://d2xhvxf40jxf4j.cloudfront.net/img/accomodation/sm1.png?v=14" alt="..." class="small_slider">
+                                            <div class="main_pheight">
+                                                <p class="small_imgh" >Seawater Pools </p>
+                                                <p class="small_imgp">Avoid straining the island's water supply.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <img src="https://d2xhvxf40jxf4j.cloudfront.net/img/accomodation/sm2.png?v=14" alt="..." class="small_slider">
+                                            <div class="main_pheight">
+                                                <p class="small_imgh">Sustainable Materials
+                                                </p>
+                                                <p class="small_imgp">Reduce waste and energy consumption.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <img src="https://d2xhvxf40jxf4j.cloudfront.net/img/accomodation/sm3.png?v=14" alt="..." class="small_slider">
+
+                                            <div class="main_pheight">
+                                                <p class="small_imgh">Planted Roof System
+                                                </p>
+                                                <p class="small_imgp">Provide insulation and improve air quality.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="item res5">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-4">
+
+                                            <img src="https://d2xhvxf40jxf4j.cloudfront.net/img/accomodation/sm4.png?v=14" alt="..." class="small_slider">
+                                            <div class="main_pheight">
+                                                <p class="small_imgh">Fresh Water Sources
+                                                </p>
+                                                <p class="small_imgp">Collect water naturally and minimize our use of the island's water supply.</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <img src="https://d2xhvxf40jxf4j.cloudfront.net/img/accomodation/sm5.png?v=14" alt="..." class="small_slider">
+                                            <div class="main_pheight">
+                                                <p class="small_imgh">Wastewater Treatment Systems
+                                                </p>
+                                                <p class="small_imgp">Remove impurities and irrigate the surrounding landscape.</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
                                             <img src="https://d2xhvxf40jxf4j.cloudfront.net/img/accomodation/sm6.png?v=14" alt="..." class="small_slider">
                                             <div class="main_pheight">
                                                 <p class="small_imgh">Locally Grown & Sourced Ingredients
