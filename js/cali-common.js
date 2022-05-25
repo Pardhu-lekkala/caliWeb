@@ -21,7 +21,7 @@
         setNavigation();
         $('[data-toggle="tooltip"]').tooltip();
     });
-    $('#navfooter').load('components/navfooter.html', function(){
+    $('#navfooter1').load('components/navfooter.html', function(){
         $('#anccookiesettings').click(function(){$('.cky-btn-customize').trigger('click');});
         registerSubscribeEvent();
     });
