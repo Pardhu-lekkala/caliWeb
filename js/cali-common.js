@@ -17,10 +17,10 @@
 
  $(document).ready(function() {
      
-    $('#navheader').load('components/navheader.html', function(){
-        setNavigation();
-        $('[data-toggle="tooltip"]').tooltip();
-    });
+    // $('#navheader').load('components/navheader.html', function(){
+    //     setNavigation();
+    //     $('[data-toggle="tooltip"]').tooltip();
+    // });
     $('#navfooter1').load('components/navfooter.html', function(){
         $('#anccookiesettings').click(function(){$('.cky-btn-customize').trigger('click');});
         registerSubscribeEvent();
