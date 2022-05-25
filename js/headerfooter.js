@@ -14,11 +14,11 @@ function setNavigation() {
     });
 }
 
-$('#navheader').load('components/navheader.html', function(){
+$('#navheader').load('navheader.html', function(){
     setNavigation();
     $('[data-toggle="tooltip"]').tooltip();
 });
-$('#navfooter').load('components/navfooter.html', function(){
+$('#navfooter').load('navfooter.html', function(){
     $('#anccookiesettings').click(function(){$('.cky-btn-customize').trigger('click');});
     registerSubscribeEvent();
 });
